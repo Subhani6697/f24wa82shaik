@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
     const functions = [
         { name: "Math.round", fn: Math.round },
         { name: "Math.fround", fn: Math.fround },
-        { name: "Math.random", fn: () => Math.random() * 10 } // scaled random value between 0 and 10
+        { name: "Math.random", fn: () => Math.random() * 10 }
     ];
     // Apply the selected function
     const selectedFunction = functions[0];
